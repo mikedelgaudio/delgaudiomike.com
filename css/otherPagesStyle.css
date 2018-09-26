@@ -1,0 +1,393 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+background: black; /* For browsers that do not support gradients */	
+background: rgba(20,20,20,1);
+background: -moz-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(20,20,20,1)), color-stop(100%, rgba(1,7,14,1)));
+background: -webkit-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
+background: linear-gradient(135deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#01070e', GradientType=1 );
+/*NYC IMAGE*/
+background: url(../images/otherPages.jpg) no-repeat center center fixed;
+	background-z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	max-width: 100%;
+	max-height: 100%;
+	/*PAGECENTER*/
+display: flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+
+
+/*YELLOW GLOW auto EFFECT*/
+
+#container {
+  width: 100%;
+  margin: auto;
+}
+
+/*Neon*/
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/*Font for DelGaudio*/
+p:nth-child(1) a {
+  color: #E5B000;
+  font-family: 'Courgette', cursive;
+}
+
+p:nth-child(1) a:hover {
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+}
+
+p a:hover {
+  color: #ffffff;
+}
+
+/*glow for webkit*/
+@-webkit-keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
+  }
+}
+
+/*glow for mozilla*/
+@-moz-keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
+  }
+}
+
+/*glow*/
+@keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
+  }
+}
+/*endOfEffect*/
+
+
+
+
+p {
+	color: white;
+	text-align: center;
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier C Bold', 'monospace';
+}
+
+
+
+
+/*RESPONSIVE*/
+@media (min-width: 816px) {
+  #container {
+    width: 100%;
+  }
+  p {
+    font-size: 7em; /*when screen size is bigger than 816px make the font size*/
+  }
+	h5{
+		font-size: 1.125em;
+	}
+	.indexText {
+		font-size: 2em;
+	}
+	.expText {
+		font-size: 1.7em;
+	}
+	.email{
+		font-size: 1em;
+	}
+	#buildNumber {
+	font-size: 0.6em;
+	}
+	div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	width: 3%;
+	opacity: 0.3;
+    filter: Alpha(opacity=30); /* IE8 and earlier */
+	}
+	/*porfolio*/
+	h6{
+		font-size: 	0.3125em;
+	}
+	.warnText {
+		font-size: 0.5em;
+	}
+	/*game*/
+	.gameSize{
+		width: 480px;
+		height: 300px;
+	}
+	.logoForGame{
+		font-size: 6em;
+	}
+	.unityText{
+		font-size: 1em;
+	}
+}
+
+
+/*when screen size is smaller than 815px make the font&DIV size*/
+@media (max-width: 815px){
+	p {
+		font-size: 5em;
+	}
+	.indexText {
+		font-size: 1em;
+	}
+	.expText {
+		font-size: 0.85em;
+	}
+	.email{
+		font-size: 0.75em;
+	}
+	#buildNumber {
+	font-size: 0.6em;
+	}
+	div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	width: 4%;
+	opacity: 0.3;
+    filter: Alpha(opacity=30); /* IE8 and earlier */
+	}
+	/*portfolio*/
+	.warnText {
+		font-size: 0.25em;
+	}
+	/*game*/
+	.logoForGame{
+		font-size: 6em;
+	}
+	.unityText{
+		font-size: 1em;
+	}
+}
+
+/*when screen size is smaller than 325px make the font&DIV size*/
+@media (max-width: 325px){
+	p {
+		font-size: 4em;
+	}
+	div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	width: 10%;
+	opacity: 0.3;
+    filter: Alpha(opacity=30); /* IE8 and earlier */
+	}
+}
+
+/*when screen size is smaller than 540px make the DIV size*/
+@media (max-width: 540px){
+	div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	width: 9%;
+	opacity: 0.3;
+    filter: Alpha(opacity=30); /* IE8 and earlier */
+		z-index: 4;
+	}
+}
+
+
+
+/*aboutMe
+
+
+
+
+*/
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h5{
+	color: white;
+	text-align: center;
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; 
+}
+
+.highlight:hover {
+	font-weight:bold;
+}
+
+.paddingForAbout{
+	height: 40px;
+	overflow: hidden;
+	width: 100%;
+}
+.colorIcons {
+	color: #FFFFFF;
+}
+
+.w3sContainerBackground {
+	background-color: #3b455d;
+}
+.w3sContainerTitle {
+	background-color: #242A39;
+}
+
+.contactLink{
+	text-decoration: underline;
+}
+
+
+/*font size changes for content*/
+@media (max-width: 800px){
+	h5{
+		font-size: 0.875em;
+	}
+}
+
+/*for iPhone X*/
+@media (max-width: 450px){
+	h5{
+		font-size: 0.750em;
+	}
+}
+
+	
+
+
+
+/*porfolioStyle
+
+
+
+
+*/
+
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+
+h6{
+	color: white;
+	text-align: center;
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; 
+}
+
+h6:hover {
+	font-weight:bold;
+}
+/*padding changes for Modal*/
+@media (max-width: 800px){
+	h6{
+		font-size: 0.1875em;
+	}
+	.imageCenteringForModal {
+		padding-bottom:50%;
+	}
+}
+
+/*padding changes for Modal*/
+@media (max-width: 599px){
+	.imageCenteringForModal {
+		padding-top:35%;
+	}
+}
+
+
+
+
+
+
+/*game
+
+
+
+
+
+
+
+*/
+.gameTitle{
+	color: white;
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; 
+	margin-right: 10px; 
+	float: right;
+	font-weight: bold;
+	font-style: italic;
+}
+.warningBoxForGame{
+	top: 40%;
+	z-index: 4;
+}
+/*
+.instructGame{
+	color: white;
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+	font-size: 0.7em;
+}*/
+.topUP-modal-content{margin:auto;background-color:#fff;position:fixed;padding:0;outline:0;width:600px;top:3%;}/*position relative and no top*/
+@media (max-width:600px){.topUP-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}}
+@media (max-width:768px){.topUP-modal-content{width:500px}.w3-modal{padding-top:50px}}
+@media (min-width:993px){.topUP-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
+
+
+/*when screen size is smaller than 1919px make the game size
+@media (max-width: 1919px){
+	/*game*/
+/*
+	.gameSize{
+		width: 880px;
+		height: 550px;
+	}
+}
+*/
+
+
+/*when screen size is smaller than 879px make the game size
+@media (max-width: 879px){
+	/*game
+	.gameSize{
+		width: 720px;
+		height: 450px;
+	}
+}
+*/
