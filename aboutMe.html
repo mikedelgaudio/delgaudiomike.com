@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us"><!--V1.6e Final|Updated 10/06/18-->
+<html lang="en-us"><!--V1.7 Final|Updated 10/06/18-->
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119776312-1"></script>
@@ -32,7 +32,7 @@
 	
 <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="css/min/otherPagesStyle.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/otherPagesStyle.css"/>
 
 <style>
 body, html {
@@ -69,35 +69,65 @@ body, html {
     		<div class="w3-container w3-black w3-display-container">
       			<div id="container">
   					<p><a href="/">DelGaudio</a></p>
-					<p class="indexText">about me</p>
+					<p class="indexText">&gt;&gt; about me<span class="blinking-cursor">|</span></p>
 		 		</div>
 				<div style="height: 20px; overflow: hidden; width: 100%;"></div>
     		</div>
     		<div class="w3-container w3sContainerBackground">
-      			<h5>Hey there, I'm Mike! I created this website to share my hobby with others during my years as a computer science student. When I'm not studying for calculus or programming, I spend my time in <i>Adobe Photoshop CC</i> and work with <i>Apple’s Final Cut Pro</i> to make my ideas come to life. Additionally, I taught myself how to program professional lighting equipment with <i>Chauvet’s ShowXpress</i>. I became fluent with Digital Multiplex (DMX512) protocol and how light fixtures operate. This website is one of my favorite personal projects that got me interested into web development.</h5>
+      			<h5>
+					<ul class="breakdown">
+						<li>Michael DelGaudio</li>
+						<li>Hoboken, NJ</li>
+						<li>Bachelor of Computer Science</li>
+						<li>Stevens Institute of Technology</li>
+						<li><i>Expected Grad:</i> June 2023</li>
+					</ul>
+				</h5>
     		</div>
-    		<div class="w3-container w3sContainerTitle">
-				<p class="expText"><b>experience</b></p>
-    		</div>
-    		<div class="w3-container w3sContainerBackground">
-      			<h5 class="highlight">HTML, CSS, AWS, CloudFlare</h5>
-      			<h5 class="highlight">Python, JavaScript</h5>
-	  			<h5 class="highlight">Git</h5>
-      			<h5 class="highlight">Adobe Photoshop CC</h5>
-      			<h5 class="highlight">Adobe Dreamweaver CC, Microsoft Visual Studio, Notepad++</h5>
-      			<h5 class="highlight">Chauvet ShowXpress</h5>
-      			<h5 class="highlight">MS Office: Word, Excel, Powerpoint</h5>
-      			<h5 class="highlight">Microsoft Windows and Server 2016</h5>
-	  			<h5 class="highlight">Apple iOS and macOS</h5>
-	  			<h5 class="highlight">Apple Final Cut Pro 10.4</h5>
-      			<h5 class="highlight">Synology DiskStation Manager (DSM)</h5>
-	  			<h5 class="highlight">Oracle VM VirtualBox</h5>
-    		</div>
+			
+			<button class="accordion">Who Am I</button>
+				<div class="panel">
+  					<h5>Hey there, I'm Mike! I created this website to share my hobby with others during my years as a computer science student. When I'm not studying for calculus or programming, I spend my time in <i>Adobe Photoshop CC</i> and work with <i>Apple’s Final Cut Pro</i> to make my ideas come to life. Additionally, I taught myself how to program professional lighting equipment with <i>Chauvet’s ShowXpress</i>. I became fluent with Digital Multiplex (DMX512) protocol and how light fixtures operate. This website is one of my favorite personal projects that got me interested into web development.</h5>
+				</div>
+			<div class="breakInAbout">&nbsp;</div>
+			<button class="accordion">Skills</button>
+				<div class="panel">
+					<ul class="allSkills">
+						<li class="skills">HTML, CSS, AWS, CloudFlare</li>
+						<li class="skills">Python, JavaScript</li>
+						<li class="skills">Git</li>
+						<li class="skills">Adobe Photoshop CC</li>
+						<li class="skills">Adobe Dreamweaver CC, Microsoft Visual Studio, Notepad++</li>
+						<li class="skills">Chauvet ShowXpress</li>
+						<li class="skills">MS Office: Word, Excel, Powerpoint</li>
+						<li class="skills">Microsoft Windows &amp; Server 2016</li>
+						<li class="skills">Apple iOS &amp; macOS</li>
+						<li class="skills">Apple Final Cut Pro</li>
+						<li class="skills">Synology DiskStation Manager (DSM)</li>
+						<li class="skills">Oracle VM VirtualBox</li>
+						<div class="breakInAbout">&nbsp;</div>
+					</ul>
+				</div>
   		</div>
 	</div>
 
 </div><!--close of .backgroundIndex-->
 
 <script src="js/min/script1.min.js"></script>
+<script>var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 </html>

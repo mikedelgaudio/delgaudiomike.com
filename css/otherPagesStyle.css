@@ -11,15 +11,7 @@ body {
 }
 
 body {
-background: black; /* For browsers that do not support gradients */	
-background: rgba(20,20,20,1);
-background: -moz-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(20,20,20,1)), color-stop(100%, rgba(1,7,14,1)));
-background: -webkit-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-background: linear-gradient(135deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#01070e', GradientType=1 );
+background: black; /* For browsers that do not support gradients */
 /*NYC IMAGE*/
 background: url(../images/otherPages.jpg) no-repeat center center fixed;
 	background-z-index: -1;
@@ -124,7 +116,7 @@ p {
   p {
     font-size: 7em; /*when screen size is bigger than 816px make the font size*/
   }
-	h5{
+	h5, li{
 		font-size: 1.125em;
 	}
 	.indexText {
@@ -154,15 +146,8 @@ p {
 	.warnText {
 		font-size: 0.5em;
 	}
-	/*game*/
-	.gameSize{
-		width: 480px;
-		height: 300px;
-	}
-	.logoForGame{
-		font-size: 6em;
-	}
-	.unityText{
+	/*add font size for blinker*/
+	.blinking-cursor {
 		font-size: 1em;
 	}
 }
@@ -197,13 +182,7 @@ p {
 	.warnText {
 		font-size: 0.25em;
 	}
-	/*game*/
-	.logoForGame{
-		font-size: 6em;
-	}
-	.unityText{
-		font-size: 1em;
-	}
+	
 }
 
 /*when screen size is smaller than 325px make the font&DIV size*/
@@ -247,14 +226,20 @@ h1 {
 	text-align: center;
 }
 
-h5{
+h5, li{
 	color: white;
 	text-align: center;
 	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; 
 }
 
-.highlight:hover {
-	font-weight:bold;
+/*for the skills I want them to the left compared to bio*/
+li.skills{
+	text-align: left;
+}
+
+ul.allSkills{
+	padding-left: 2%;
+	padding-top: 1%;
 }
 
 .paddingForAbout{
@@ -280,14 +265,14 @@ h5{
 
 /*font size changes for content*/
 @media (max-width: 800px){
-	h5{
+	h5, li{
 		font-size: 0.875em;
 	}
 }
 
 /*for iPhone X*/
 @media (max-width: 450px){
-	h5{
+	h5, li{
 		font-size: 0.750em;
 	}
 }
@@ -333,61 +318,113 @@ h6:hover {
 }
 
 
-
-
-
-
-/*game
-
-
-
-
-
-
-
-*/
-.gameTitle{
-	color: white;
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; 
-	margin-right: 10px; 
-	float: right;
-	font-weight: bold;
-	font-style: italic;
-}
-.warningBoxForGame{
-	top: 40%;
-	z-index: 4;
-}
-/*
-.instructGame{
-	color: white;
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
-	font-size: 0.7em;
-}*/
 .topUP-modal-content{margin:auto;background-color:#fff;position:fixed;padding:0;outline:0;width:600px;top:3%;}/*position relative and no top*/
 @media (max-width:600px){.topUP-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}}
 @media (max-width:768px){.topUP-modal-content{width:500px}.w3-modal{padding-top:50px}}
 @media (min-width:993px){.topUP-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
 
 
-/*when screen size is smaller than 1919px make the game size
-@media (max-width: 1919px){
-	/*game*/
-/*
-	.gameSize{
-		width: 880px;
-		height: 550px;
-	}
+/*Blinking Cursor Idea*/
+.blinking-cursor {
+  font-weight: 100;
+  
+  color: #FFFFFF;
+	word-spacing: -2px;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
 }
-*/
 
-
-/*when screen size is smaller than 879px make the game size
-@media (max-width: 879px){
-	/*game
-	.gameSize{
-		width: 720px;
-		height: 450px;
-	}
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
 }
-*/
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+/*end*/
+
+/*remove bullets for this info*/
+ul.breakdown {
+  list-style: none;
+}
+
+/*Need to push a little bit due to cursor*/
+.indexText{
+	padding-right: 5px;
+}
+/**/
+
+/*Accordion style on about page*/
+.accordion {
+    background-color: #242A39;
+    color: #F9F9F9;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+	font-weight: bold;
+    transition: 0.4s;
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+
+}
+.active, .accordion:hover {
+    background-color: #B78C00;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #3b455d;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.breakInAbout{
+	background-color: #3b455d;
+}
