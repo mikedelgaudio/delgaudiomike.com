@@ -428,3 +428,29 @@ ul.breakdown {
 .breakInAbout{
 	background-color: #3b455d;
 }
+
+
+/*Changes to Contact Me Page*/
+.socialIcons{
+	display:inline-block;
+	height: 10%;
+	padding-top: 10px;
+}
+
+div.contactSpacer10{
+	height: 10px; 
+	overflow: hidden; 
+	width: 100%;	
+}
+
+div.contactSpacer20{
+	height: 20px; 
+	overflow: hidden; 
+	width: 100%;	
+}
+
+.centerTheIcons{
+	padding-left:none;
+}
+
+.w3-customHover:hover{color:#000!important;background-color:#A57F00!important}
