@@ -1,46 +1,8 @@
-@charset "UTF-8";
-/* CSS Document */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html,
-body {
-  height: 100%;
-}
 
 body {
-background: black; /* For browsers that do not support gradients */	
-background: rgba(20,20,20,1);
-background: -moz-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(20,20,20,1)), color-stop(100%, rgba(1,7,14,1)));
-background: -webkit-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-background: linear-gradient(135deg, rgba(20,20,20,1) 0%, rgba(1,7,14,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#01070e', GradientType=1 );
-/*NYC IMAGE*/
 	background: url(../images/index.jpg) no-repeat center center fixed;
-	background-z-index: -1;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	max-width: 100%;
-	max-height: 100%;
-	/*PAGECENTER*/
-display: flex;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
 }
 
-.w3-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 
 
 p {
@@ -54,81 +16,6 @@ p {
 .colorIcons {
 	color: #FFFFFF;
 }
-
-
-
-
-/*YELLOW GLOW auto EFFECT*/
-
-#container {
-  width: 100%;
-  margin: auto;
-}
-
-/*Neon*/
-
-a {
-  text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-/*Font for DelGaudio*/
-p:nth-child(1) a {
-  color: #E5B000;
-  font-family: 'Courgette', cursive;
-}
-
-p:nth-child(1) a:hover {
-  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
-  animation: neon3 1.5s ease-in-out infinite alternate;
-}
-
-
-
-p a:hover {
-  color: #ffffff;
-}
-
-
-/*glow for webkit*/
-
-@-webkit-keyframes neon3 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
-  }
-}
-
-
-/*glow for mozilla*/
-
-@-moz-keyframes neon3 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
-  }
-}
-
-
-/*glow*/
-
-@keyframes neon3 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
-  }
-}
-
-
 
 
 /*RESPONSIVE650*/
