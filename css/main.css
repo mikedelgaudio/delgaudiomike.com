@@ -87,6 +87,9 @@ a {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
+a:hover{
+  text-decoration: none;
+}
   
 /*Font for DelGaudio*/
 p:nth-child(1) a {
@@ -147,7 +150,6 @@ p a:hover {
   -o-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
 }
-
 
 @keyframes blink {
   from, to {
@@ -230,3 +232,8 @@ img{
 
 /*Image Hover*/
 .w3-customHover:hover{color:#000!important;background-color:#A57F00!important}
+
+/*Portfolio page*/
+.w3-main,#main{transition:margin-left .4s}
+@media (max-width:992px){.w3-sidebar.w3-collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}}
+.w3-content{max-width:980px;margin:auto}
