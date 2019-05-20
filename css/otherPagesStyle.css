@@ -4,20 +4,6 @@ background: url(../images/otherPages.jpg) no-repeat center center fixed;
 }
 
 
-
-
-
-
-
-p {
-	color: white;
-	text-align: center;
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier C Bold', 'monospace';
-}
-
-
-
-
 /*RESPONSIVE*/
 @media (min-width: 816px) {
   #container {
@@ -191,12 +177,7 @@ ul.allSkills{
 
 
 
-/*porfolioStyle
-
-
-
-
-*/
+/*porfolioStyle*/
 
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
@@ -233,56 +214,6 @@ h6:hover {
 @media (max-width:768px){.topUP-modal-content{width:500px}.w3-modal{padding-top:50px}}
 @media (min-width:993px){.topUP-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
 
-
-/*Blinking Cursor Idea*/
-.blinking-cursor {
-  font-weight: 100;
-  
-  color: #FFFFFF;
-	word-spacing: -2px;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-
-@keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-moz-keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-
-@-o-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-/*end*/
 
 /*remove bullets for this info*/
 ul.breakdown {
@@ -362,5 +293,3 @@ div.contactSpacer20{
 .centerTheIcons{
 	padding-left:none;
 }
-
-.w3-customHover:hover{color:#000!important;background-color:#A57F00!important}

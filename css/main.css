@@ -5,11 +5,27 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: inherit;
+}
+*:before{
+  box-sizing: inherit;
+}
+*:after{
+  box-sizing: inherit;
 }
 
 html,
 body {
   height: 100%;
+  box-sizing: border-box;
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 400;
+  margin: 10px 0;
 }
 
 body {
@@ -29,6 +45,23 @@ body {
     justify-content: center;
 }
 
+p {
+	color: white;
+	text-align: center;
+}
+
+a{
+  color: inherit;
+  background-color: transparent;
+}
+
+button{
+  font: inherit;
+  margin: 0;
+  text-transform: none;
+  -webkit-appearance: button;
+}
+
 /*Zoom in Animation*/
 .w3-animate-zoom {
     animation:animatezoom 0.6s
@@ -41,63 +74,159 @@ body {
     }
 }
 
-YELLOW GLOW auto EFFECT
+/*YELLOW GLOW auto EFFECT*/
 #container {
     width: 100%;
     margin: auto;
   }
+    
+/*Neon*/
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
   
-  /*Neon*/
-  
-  a {
-    text-decoration: none;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  
-  /*Font for DelGaudio*/
-  p:nth-child(1) a {
-    color: #E5B000;
-    font-family: 'Courgette', cursive;
-  }
-  
-  p:nth-child(1) a:hover {
-    -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
-    -moz-animation: neon3 1.5s ease-in-out infinite alternate;
-    animation: neon3 1.5s ease-in-out infinite alternate;
-  }
-  
-  p a:hover {
-    color: #ffffff;
-  }
-  
-  /*glow for webkit*/
-  @-webkit-keyframes neon3 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
-    }
-  }
-  
-  /*glow for mozilla*/
-  @-moz-keyframes neon3 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
-    }
-  }
+/*Font for DelGaudio*/
+p:nth-child(1) a {
+  color: #E5B000;
+  font-family: 'Courgette', cursive;
+}
 
-  /*glow*/
-  @keyframes neon3 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
-    }
-    }
+p:nth-child(1) a:hover {
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+}
+  
+p a:hover {
+  color: #ffffff;
+}
+  
+/*glow for webkit*/
+@-webkit-keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
+  }
+}
+  
+/*glow for mozilla*/
+@-moz-keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
+  }
+}
+
+/*glow*/
+@keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E5B000, 0 0 70px #E5B000, 0 0 80px #E5B000, 0 0 100px #E5B000, 0 0 150px #E5B000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #E5B000, 0 0 35px #E5B000, 0 0 40px #E5B000, 0 0 50px #E5B000, 0 0 75px #E5B000;
+  }
+}
+/*End of Glowing Text*/
+
+/*Blinking Cursor Idea*/
+.blinking-cursor {
+  font-weight: 100;
+  
+  color: #FFFFFF;
+	word-spacing: -2px;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+/*End of Blinking Cursor*/
+
+
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important;}
+.w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}.w3-top{top:0}.w3-bottom{bottom:0}
+.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+.w3-padding{padding:8px 16px!important}
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
+.w3-col.s3{width:24.99999%}
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
+.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none} 
+.w3-button:disabled{cursor:not-allowed;opacity:0.3}
+.w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:#ccc;color:#000}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-button{white-space:normal}
+.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
+.w3-block{display:block;width:100%}
+
+.w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.1)}
+.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px;} /*position relative and no top*/
+@media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}}
+@media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
+@media (min-width:993px){.w3-modal-content{width:900px}}
+
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+.w3-container,.w3-panel{padding:0.01em 16px}
+
+.w3-display-container{position:relative}
+.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}
+
+
+/*About*/
+img{
+  vertical-align: middle;
+  border-style: none;
+}
+.w3-round-large{
+  border-radius: 8px;
+}
+
+/*Image Hover*/
+.w3-customHover:hover{color:#000!important;background-color:#A57F00!important}
