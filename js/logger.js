@@ -1,8 +1,6 @@
-console.log("version_1.8");
-console.log("updated_01_02_2019");
-
-
-
+console.log("version_1.9");
+console.log("updated_05_20_2019");
+console.log("Summer Update 2019");
 
 /* Working on random background changer...
 var responsePost = document.createElement("p");
@@ -21,7 +19,7 @@ document.body.style.backgroundImage = "url(randomBackground)";
 var myArray = ["we think you should go see the CA's", "you should go visit Herc", "drop the class", "maybe sit down with Herc", "you should change majors", "you should cry"];
 var randomBackground = "'url(" + myArray[Math.floor(Math.random() * myArray.length)] +")'";
 
-
+What if we used a dictionary for a key value and then that value goes to 
 
 
 
