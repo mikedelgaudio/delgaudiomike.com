@@ -3,68 +3,39 @@ body {
 	background: url(../images/index.jpg) no-repeat center center fixed;
 }
 
-
-.colorIcons {
-	color: #FFFFFF;
+/*
+p{
+	font-size: calc(15px + (26 - 15) * ((100vw - 300px) / (1600 - 300)));
 }
+#indexText{
+	font-size: calc(15px + (26 - 15) * ((100vw - 300px) / (1600 - 300)));
+}*/
 
-
-/*RESPONSIVE650*/
-
+/*RESPONSIVE*/
 @media (min-width: 816px) {
-  #container {
-    width: 100%;
-  }
   p {
-    font-size: 12em; /*when screen size is bigger than 816px make the font size*/
-  }
+		font-size: calc(15px + (80 - 15) * ((100vw - 300px) / (900 - 300)));
+	}
+	
 	#indexText {
-		font-size: 1em;
-	}
-	#buildNumber {
-	font-size: 0.6em;
-	}
-	div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	width: 2%;
-	opacity: 0.3;
-    filter: Alpha(opacity=30); /* IE8 and earlier */
+		font-size: calc(12px + (80 - 12) * ((100vw - 300px) / (15000 - 300)));
 	}
 }
-/*when screen size is smaller than 815px make the font size*/
+
+
 @media (max-width: 815px){
 	p {
-		font-size: 5em;
+		font-size: calc(15px + (80 - 15) * ((100vw - 300px) / (750 - 300)));
 	}
+	
 	#indexText {
-		font-size: 0.5em;
+		font-size: calc(10px + (80 - 10) * ((100vw - 300px) / (9000 - 300)));
 	}
-	#buildNumber {
-	font-size: 0.6em;
-	}
-	div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	width: 8%;
-	opacity: 0.3;
-    filter: Alpha(opacity=30); /* IE8 and earlier */
-}
 }
 
-/*when screen size is smaller than 325px make the font size*/
+
 @media (max-width: 325px){
 	p {
-		font-size: 4em;
+		font-size: calc(15px + (80 - 15) * ((150vw - 300px) / (550 - 300)));
 	}
-	div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	width: 10%;
-	opacity: 0.3;
-    filter: Alpha(opacity=30); /* IE8 and earlier */
-}
 }
