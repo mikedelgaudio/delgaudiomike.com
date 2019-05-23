@@ -21,7 +21,7 @@ div.spacer30{
 
 .pageTitle{
 	/*Known as indexText*/
-	font-size: calc(11px + (150 - 11) * ((100vw - 300px) / (15000 - 300)));
+	font-size: calc(15px + (70 - 15) * ((100vw - 300px) / (10000 - 300)));
 }
 
 
