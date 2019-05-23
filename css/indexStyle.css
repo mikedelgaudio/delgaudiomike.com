@@ -4,42 +4,10 @@ body {
 }
 
 
+/*Fluid Typography*/
 p{
-	font-size: calc(70px + (80 - 70) * ((100vw - 300px) / (900 - 300)));
+	font-size: calc(70px + (80 - 70) * ((100vw - 300px) / (425 - 300)));
 }
 #indexText{
 	font-size: calc(11px + (150 - 11) * ((100vw - 300px) / (15000 - 300)));
 }
-
-
-/*RESPONSIVE*/
-/*
-@media (min-width: 1024px) {
-	
-  p {
-		font-size: calc(15px + (80 - 15) * ((100vw - 300px) / (900 - 300)));
-	}
-	
-	#indexText {
-		font-size: calc(12px + (200 - 12) * ((100vw - 300px) / (15000 - 300)));
-	}
-}
-
-
-@media (max-width: 815px){
-	p {
-		font-size: calc(15px + (80 - 15) * ((100vw - 300px) / (750 - 300)));
-	}
-	
-	#indexText {
-		font-size: calc(10px + (80 - 10) * ((100vw - 300px) / (9000 - 300)));
-	}
-}*/
-
-/*
-@media (max-width: 325px){
-	p {
-		font-size: calc(15px + (80 - 15) * ((150vw - 300px) / (550 - 300)));
-	}
-}
-*/
