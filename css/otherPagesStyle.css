@@ -4,6 +4,26 @@ background: url(../images/otherPages.jpg) no-repeat center center fixed;
 background: white;
 }
 
+.w3sContainerBackground {
+	background-color: #3b455d;
+}
+
+div.spacer20{
+	height: 20px;
+	overflow: hidden;
+	width: 100%;
+}
+div.spacer30{
+	height: 30px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.pageTitle{
+	/*Known as indexText*/
+	font-size: calc(11px + (150 - 11) * ((100vw - 300px) / (15000 - 300)));
+}
+
 
 /*RESPONSIVE*/
 @media (min-width: 816px) {
@@ -24,17 +44,6 @@ background: white;
 	}
 	.email{
 		font-size: 1em;
-	}
-	#buildNumber {
-	font-size: 0.6em;
-	}
-	div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	width: 3%;
-	opacity: 0.3;
-    filter: Alpha(opacity=30); /* IE8 and earlier */
 	}
 	/*porfolio*/
 	h6{
@@ -64,17 +73,6 @@ background: white;
 	.email{
 		font-size: 0.75em;
 	}
-	#buildNumber {
-	font-size: 0.6em;
-	}
-	div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	width: 4%;
-	opacity: 0.3;
-    filter: Alpha(opacity=30); /* IE8 and earlier */
-	}
 	/*portfolio*/
 	.warnText {
 		font-size: 0.25em;
@@ -87,37 +85,16 @@ background: white;
 	p {
 		font-size: 4em;
 	}
-	div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	width: 10%;
-	opacity: 0.3;
-    filter: Alpha(opacity=30); /* IE8 and earlier */
-	}
 }
 
 /*when screen size is smaller than 540px make the DIV size*/
 @media (max-width: 540px){
-	div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	width: 9%;
-	opacity: 0.3;
-    filter: Alpha(opacity=30); /* IE8 and earlier */
-		z-index: 4;
-	}
+
 }
 
 
 
-/*aboutMe
-
-
-
-
-*/
+/*ABOUT_ME*/
 h1 {
 	color: white;
 	text-align: center;
@@ -148,12 +125,6 @@ ul.allSkills{
 	color: #FFFFFF;
 }
 
-.w3sContainerBackground {
-	background-color: #3b455d;
-}
-.w3sContainerTitle {
-	background-color: #242A39;
-}
 
 .contactLink{
 	text-decoration: underline;
@@ -178,20 +149,11 @@ ul.allSkills{
 
 
 
-/*porfolioStyle*/
+/*PORTFOLIO*/
 
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
 
-h6{
-	color: white;
-	text-align: center;
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; 
-}
-
-h6:hover {
-	font-weight:bold;
-}
 /*padding changes for Modal*/
 @media (max-width: 800px){
 	h6{
@@ -238,10 +200,9 @@ ul.breakdown {
     text-align: left;
     outline: none;
     font-size: 1em;
-	font-weight: bold;
+		font-weight: bold;
     transition: 0.4s;
-	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-
+		box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 }
 .active, .accordion:hover {
     background-color: #B78C00;
@@ -272,25 +233,15 @@ ul.breakdown {
 }
 
 
-/*Changes to Contact Me Page*/
+/*CONTACT*/
 .socialIcons{
 	display:inline-block;
 	height: 10%;
 	padding-top: 10px;
 }
-
-div.contactSpacer10{
-	height: 10px; 
-	overflow: hidden; 
-	width: 100%;	
+.contactIcons {
+	font-size: 1.7em;
 }
-
-div.contactSpacer20{
-	height: 20px; 
-	overflow: hidden; 
-	width: 100%;	
-}
-
-.centerTheIcons{
-	padding-left:none;
+.w3sContainerTitle {
+	background-color: #242A39;
 }
