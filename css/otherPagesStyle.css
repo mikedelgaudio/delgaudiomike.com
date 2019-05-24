@@ -8,6 +8,10 @@ background: white;
 	background-color: #3b455d;
 }
 
+p{
+	font-size: calc(60px + (80 - 60) * ((100vw - 300px) / (900 - 300)));
+}
+
 div.spacer20{
 	height: 20px;
 	overflow: hidden;
@@ -27,12 +31,6 @@ div.spacer30{
 
 /*RESPONSIVE*/
 @media (min-width: 816px) {
-  #container {
-    width: 100%;
-  }
-  p {
-    font-size: 7em; /*when screen size is bigger than 816px make the font size*/
-  }
 	h5, li{
 		font-size: 1.125em;
 	}
@@ -61,9 +59,6 @@ div.spacer30{
 
 /*when screen size is smaller than 815px make the font&DIV size*/
 @media (max-width: 815px){
-	p {
-		font-size: 5em;
-	}
 	.indexText {
 		font-size: 1em;
 	}
@@ -82,9 +77,6 @@ div.spacer30{
 
 /*when screen size is smaller than 325px make the font&DIV size*/
 @media (max-width: 325px){
-	p {
-		font-size: 4em;
-	}
 }
 
 /*when screen size is smaller than 540px make the DIV size*/
@@ -194,7 +186,7 @@ ul.breakdown {
     background-color: #242A39;
     color: #F9F9F9;
     cursor: pointer;
-    padding: 18px;
+    padding: 13.4px;
     width: 100%;
     border: none;
     text-align: left;
