@@ -28,18 +28,29 @@ div.spacer30{
 	font-size: calc(15px + (70 - 15) * ((100vw - 300px) / (10000 - 300)));
 }
 
+h5, li{
+	font-size: calc(15px + (70 - 15) * ((100vw - 300px) / (10000 - 300)));
+	text-align: center;
+	color: white;
+}
+
+/*
+@media (max-width:600px){.topUP-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}}
+@media (max-width:768px){.topUP-modal-content{width:500px}.w3-modal{padding-top:50px}}
+@media (min-width:993px){.topUP-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
+*/
+.w3-modal{
+	width: calc(15px + (70 - 15) * ((100vw - 300px) / (10000 - 300)));
+}
+
+li{
+	color:white;
+	text-align: center;
+}
+
 
 /*RESPONSIVE*/
 @media (min-width: 816px) {
-	h5, li{
-		font-size: 1.125em;
-	}
-	.indexText {
-		font-size: 2em;
-	}
-	.expText {
-		font-size: 1.7em;
-	}
 	.email{
 		font-size: 1em;
 	}
@@ -55,16 +66,8 @@ div.spacer30{
 		font-size: 1em;
 	}
 }
-
-
 /*when screen size is smaller than 815px make the font&DIV size*/
 @media (max-width: 815px){
-	.indexText {
-		font-size: 1em;
-	}
-	.expText {
-		font-size: 0.85em;
-	}
 	.email{
 		font-size: 0.75em;
 	}
@@ -72,30 +75,17 @@ div.spacer30{
 	.warnText {
 		font-size: 0.25em;
 	}
-	
 }
-
 /*when screen size is smaller than 325px make the font&DIV size*/
 @media (max-width: 325px){
 }
-
 /*when screen size is smaller than 540px make the DIV size*/
 @media (max-width: 540px){
-
 }
-
-
 
 /*ABOUT_ME*/
 h1 {
-	color: white;
 	text-align: center;
-}
-
-h5, li{
-	color: white;
-	text-align: center;
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'; 
 }
 
 /*for the skills I want them to the left compared to bio*/
@@ -113,31 +103,10 @@ ul.allSkills{
 	overflow: hidden;
 	width: 100%;
 }
-.colorIcons {
-	color: #FFFFFF;
-}
-
 
 .contactLink{
 	text-decoration: underline;
 }
-
-
-/*font size changes for content*/
-@media (max-width: 800px){
-	h5, li{
-		font-size: 0.875em;
-	}
-}
-
-/*for iPhone X*/
-@media (max-width: 450px){
-	h5, li{
-		font-size: 0.750em;
-	}
-}
-
-	
 
 
 
@@ -165,9 +134,6 @@ ul.allSkills{
 
 
 .topUP-modal-content{margin:auto;background-color:#fff;position:fixed;padding:0;outline:0;width:600px;top:3%;}/*position relative and no top*/
-@media (max-width:600px){.topUP-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}}
-@media (max-width:768px){.topUP-modal-content{width:500px}.w3-modal{padding-top:50px}}
-@media (min-width:993px){.topUP-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
 
 
 /*remove bullets for this info*/
@@ -175,53 +141,44 @@ ul.breakdown {
   list-style: none;
 }
 
-/*Need to push a little bit due to cursor*/
-.indexText{
-	padding-left: -20px;
-}
-/**/
 
-/*Accordion style on about page*/
-.accordion {
-    background-color: #242A39;
-    color: #F9F9F9;
-    cursor: pointer;
-    padding: 13.4px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 1em;
-		font-weight: bold;
-    transition: 0.4s;
-		box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-}
-.active, .accordion:hover {
-    background-color: #B78C00;
-}
-
-.accordion:after {
-    content: '\002B';
-    color: #777777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2212";
-}
-
-.panel {
-    padding: 0 18px;
-    background-color: #3b455d;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
+/*ABOUT*/
 .breakInAbout{
 	background-color: #3b455d;
+}
+.panel {
+	padding: 0 18px;
+	background-color: #3b455d;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+.accordion {
+	background-color: #242A39;
+	color: #F9F9F9;
+	cursor: pointer;
+	padding: 13.4px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1em;
+	font-weight: bold;
+	transition: 0.4s;
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+}
+.active, .accordion:hover {
+	background-color: #B78C00;
+}
+.accordion:after {
+	content: '\002B';
+	color: #777777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+.active:after {
+	content: "\2212";
 }
 
 
