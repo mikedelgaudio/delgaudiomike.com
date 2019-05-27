@@ -1,7 +1,6 @@
 
 body {
 background: url(../images/otherPages.jpg) no-repeat center center fixed;
-background: white;
 }
 .w3sContainerBackground {
 	background-color: #3b455d;
@@ -42,16 +41,6 @@ h6{
 		font-size: 1em;
 	}
 }
-
-
-
-/*PORTFOLIO*/
-
-.w3-quarter img{margin-bottom: -6px; cursor: pointer}
-.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
-
-.topUP-modal-content{margin:auto;background-color:#fff;position:fixed;padding:0;outline:0;width:600px;top:3%;}/*position relative and no top*/
-
 
 
 /*ABOUT*/
