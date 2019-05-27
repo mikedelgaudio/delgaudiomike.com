@@ -75,7 +75,7 @@ ul.breakdown {
 	border: none;
 	text-align: left;
 	outline: none;
-	font-size: 1em;
+	font-size: calc(13px + (50 - 13) * ((100vw - 300px) / (8000 - 300)));
 	font-weight: bold;
 	transition: 0.4s;
 	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
@@ -122,3 +122,6 @@ button.w3-button{
 	width: calc(60px + (150 - 60) * ((100vw - 300px) / (3000 - 300)));
 	height: calc(60px + (150 - 60) * ((100vw - 300px) / (3000 - 300)));
 }
+button.highlighter:hover{
+	background-color:#A57F00!important;
+  }
