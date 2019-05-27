@@ -1,7 +1,6 @@
 
 body {
 background: url(../images/otherPages.jpg) no-repeat center center fixed;
-background: white;
 }
 
 .w3sContainerBackground {
@@ -24,14 +23,17 @@ div.spacer30{
 }
 
 .pageTitle{
-	/*Known as indexText*/
 	font-size: calc(15px + (70 - 15) * ((100vw - 300px) / (10000 - 300)));
 }
 
 h5, li{
-	font-size: calc(15px + (70 - 15) * ((100vw - 300px) / (10000 - 300)));
+	font-size: calc(13px + (70 - 13) * ((100vw - 300px) / (8000 - 300)));
 	text-align: center;
 	color: white;
+}
+h6{
+	font-size: calc(13px + (45 - 13) * ((100vw - 300px) / (8000 - 300)));
+
 }
 
 /*
@@ -39,48 +41,13 @@ h5, li{
 @media (max-width:768px){.topUP-modal-content{width:500px}.w3-modal{padding-top:50px}}
 @media (min-width:993px){.topUP-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
 */
-.w3-modal{
-	width: calc(15px + (70 - 15) * ((100vw - 300px) / (10000 - 300)));
-}
-
-li{
-	color:white;
-	text-align: center;
-}
-
 
 /*RESPONSIVE*/
 @media (min-width: 816px) {
-	.email{
-		font-size: 1em;
-	}
-	/*porfolio*/
-	h6{
-		font-size: 	0.3125em;
-	}
-	.warnText {
-		font-size: 0.5em;
-	}
 	/*add font size for blinker*/
 	.blinking-cursor {
 		font-size: 1em;
 	}
-}
-/*when screen size is smaller than 815px make the font&DIV size*/
-@media (max-width: 815px){
-	.email{
-		font-size: 0.75em;
-	}
-	/*portfolio*/
-	.warnText {
-		font-size: 0.25em;
-	}
-}
-/*when screen size is smaller than 325px make the font&DIV size*/
-@media (max-width: 325px){
-}
-/*when screen size is smaller than 540px make the DIV size*/
-@media (max-width: 540px){
 }
 
 /*ABOUT_ME*/
@@ -115,24 +82,6 @@ ul.allSkills{
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
 
-/*padding changes for Modal*/
-@media (max-width: 800px){
-	h6{
-		font-size: 0.1875em;
-	}
-	.imageCenteringForModal {
-		padding-bottom:50%;
-	}
-}
-
-/*padding changes for Modal*/
-@media (max-width: 599px){
-	.imageCenteringForModal {
-		padding-top:35%;
-	}
-}
-
-
 .topUP-modal-content{margin:auto;background-color:#fff;position:fixed;padding:0;outline:0;width:600px;top:3%;}/*position relative and no top*/
 
 
@@ -147,7 +96,7 @@ ul.breakdown {
 	background-color: #3b455d;
 }
 .panel {
-	padding: 0 18px;
+	padding: 0 35px;
 	background-color: #3b455d;
 	max-height: 0;
 	overflow: hidden;
