@@ -3,15 +3,12 @@ body {
 background: url(../images/otherPages.jpg) no-repeat center center fixed;
 background: white;
 }
-
 .w3sContainerBackground {
 	background-color: #3b455d;
 }
-
 p{
 	font-size: calc(60px + (80 - 60) * ((100vw - 300px) / (900 - 300)));
 }
-
 div.spacer20{
 	height: 20px;
 	overflow: hidden;
@@ -22,7 +19,6 @@ div.spacer30{
 	overflow: hidden;
 	width: 100%;
 }
-
 .pageTitle{
 	font-size: calc(15px + (70 - 15) * ((100vw - 300px) / (10000 - 300)));
 }
@@ -31,16 +27,13 @@ h5, li{
 	font-size: calc(13px + (50 - 13) * ((100vw - 300px) / (8000 - 300)));
 	text-align: center;
 	color: white;
+	margin: 5px 0;
 }
 h6{
 	font-size: calc(13px + (45 - 13) * ((100vw - 300px) / (8000 - 300)));
 }
 
-/*
-@media (max-width:600px){.topUP-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}}
-@media (max-width:768px){.topUP-modal-content{width:500px}.w3-modal{padding-top:50px}}
-@media (min-width:993px){.topUP-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
-*/
+
 
 /*RESPONSIVE*/
 @media (min-width: 816px) {
@@ -48,18 +41,6 @@ h6{
 	.blinking-cursor {
 		font-size: 1em;
 	}
-}
-
-
-
-.paddingForAbout{
-	height: 40px;
-	overflow: hidden;
-	width: 100%;
-}
-
-.contactLink{
-	text-decoration: underline;
 }
 
 
@@ -133,7 +114,22 @@ ul.breakdown {
 }
 .contactIcons {
 	font-size: 1.7em;
+	padding: 1%;
 }
 .w3sContainerTitle {
 	background-color: #242A39;
+}
+.centerIcons{
+	display: flex;
+	justify-content: center;
+}
+.contactLink{
+	text-decoration: underline;
+}
+img{
+	width: 80%;
+}
+button.w3-button{
+	width: calc(60px + (150 - 60) * ((100vw - 300px) / (3000 - 300)));
+	height: calc(60px + (150 - 60) * ((100vw - 300px) / (3000 - 300)));
 }

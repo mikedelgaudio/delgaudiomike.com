@@ -9,5 +9,5 @@ p{
 	font-size: calc(70px + (80 - 70) * ((100vw - 300px) / (425 - 300)));
 }
 #indexText{
-	font-size: calc(11px + (150 - 11) * ((100vw - 300px) / (15000 - 300)));
+	font-size: calc(11px + (100 - 11) * ((100vw - 300px) / (15000 - 300)));
 }
