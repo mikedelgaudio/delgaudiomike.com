@@ -20,25 +20,20 @@
     <meta name="author" content="Michael DelGaudio">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
  
-    <title> <?= isset($PageTitle) ? $PageTitle : "'Mike DelGaudio'"?> </title>
+    <title><?= isset($PageTitle) ? $PageTitle : "Mike DelGaudio"?></title>
 
     <meta name="title" content= <?= isset($metaTitle) ? $metaTitle : "'Mike DelGaudio'"?> >
     <meta property="og:title" content= <?= isset($metaOgTitle) ? $metaOgTitle : "'Mike DelGaudio'"?> >
     <meta property="og:description" content= <?= isset($metaOgDescr) ? $metaOgDescr : "'computer science student | personal portfolio'"?> >
     <meta name="description" content= <?= isset($metaDescr) ? $metaDescr : "'computer science student | personal portfolio'"?> >
-    <meta name="keywords" content='michaeldelgaudio,delgaudio,mikedelgaudio,delgaudiomike,portfolio,computerscience,personalportfolio,student' + <?= isset($metaKeywords) ? $metaKeywords : ""?> >
+    <meta name="keywords" content= "michaeldelgaudio,delgaudio,mikedelgaudio,delgaudiomike,portfolio,computerscience,personalportfolio,student<?= isset($metaKeywords) ? $metaKeywords : ""?>" >
    
     <!--favicon-->
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 
     <!--StyleSheets-->
-    <link rel="stylesheet" type="text/css" href= <?= isset($pageStyle) ? $pageStyle : "css/otherPagesStyle.css"?> />
+    <link rel="stylesheet" type="text/css" href=<?= isset($pageStyle) ? $pageStyle : "css/otherPagesStyle.css"?> />
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
-
-    <?php if (function_exists('customPageHeader')){
-      customPageHeader();
-    }?>
-
   </head>
   <body>
 
