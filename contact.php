@@ -23,7 +23,7 @@ include_once('header.php');
         </div>
 
         <div id="contactMeModal" class="w3-modal">
-            <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-modal-content">
               <div class="w3-container w3sContainerBackground">
                 <h5>If you would like to ask any questions or request a resume, please <a class="contactLink" href="mailto:delgaudiomike@gmail.com" rel="nofollow">contact me</a>. Additionally, leave me some <a class="contactLink" href="mailto:delgaudiomike@gmail.com" rel="nofollow">feedback</a>!</h5>
               </div>

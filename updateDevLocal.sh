@@ -1,0 +1,1 @@
+sudo cp -r -v ~/Documents/GitHub/delgaudiomike.com/ /Applications/AMPPS/www/
