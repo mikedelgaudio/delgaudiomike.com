@@ -31,6 +31,9 @@
     <!--favicon-->
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 
+    <?php if (function_exists('customPageHeader')){
+      customPageHeader();
+    }?>
     <!--StyleSheets-->
     <link rel="stylesheet" type="text/css" href=<?= isset($pageStyle) ? $pageStyle : "css/otherPagesStyle.css"?> />
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
