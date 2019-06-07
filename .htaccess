@@ -4,3 +4,4 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
 
 ErrorDocument 404 /error404.php
+ErrorDocument 503 /error503.php
