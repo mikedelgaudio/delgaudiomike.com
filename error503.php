@@ -18,7 +18,7 @@
 	<meta property="og:site_name" content="Mike DelGaudio">
 	<meta name="author" content="Michael DelGaudio">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<title>Error 404</title>
+<title>Error 503</title>
 <!--favicon-->
 <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 <!--StyleSheets-->
