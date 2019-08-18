@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119776312-1"></script>
@@ -18,7 +18,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://delgaudiomike.com/images/ogImage.jpg">
     <meta name="author" content="Michael DelGaudio">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
     <title><?= isset($PageTitle) ? $PageTitle : "Mike DelGaudio"?></title>
 
@@ -40,20 +40,27 @@
   </head>
   <body>
 
-  <!-- Links (sit on top) -->
-    <div class="w3-top">
+  <!--[if lt IE 10]>
+	<div style="background-color:black; z-index:9999"><p style="font-size:30px; color: red;">You are using an outdated browser that may not work with this website. Please update to a modern browser.</p></div>
+<![endif]-->
+
+
+ 
+      <div class="w3-top">
         <div class="w3-row w3-padding w3-black">
-            <div class="w3-col s3">
+          <div class="w3-col s3">
             <a href="/" class="w3-button w3-block w3-black">HOME</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="/aboutMe" class="w3-button w3-block w3-black">ABOUT</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="/portfolio" class="w3-button w3-block w3-black">WORK</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="/contact" class="w3-button w3-block w3-black">CONTACT</a>
+          </div>
         </div>
-    <div class="w3-col s3">
-      <a href="/aboutMe" class="w3-button w3-block w3-black">ABOUT</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="/portfolio" class="w3-button w3-block w3-black">WORK</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="/contact" class="w3-button w3-block w3-black">CONTACT</a>
-    </div>
-  </div>
-</div>
+      </div>
+ 
+  <main>

@@ -37,6 +37,5 @@
 	<br>
 		<p style="font-size: 1em;"><a href="/" rel="nofollow"><button class="w3-button w3-white w3-round-large">Home</button></a></p>
 	</div>
-<script src="js/logger.js"></script>
 </body>
 </html>

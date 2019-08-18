@@ -65,7 +65,6 @@ include_once('header.php');
 
 </div>
 
-<script src="js/logger.js"></script>
 <script src="js/aboutMeScript.js"></script>
 </body>
 </html>

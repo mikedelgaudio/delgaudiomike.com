@@ -45,6 +45,5 @@ include_once('header.php');
     </div>
 </div>
 
-<script src="js/logger.js"></script>
 </body>
 </html>

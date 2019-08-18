@@ -7,13 +7,14 @@ $metaOgDescr= "'personal portfolio of my previous work'";
 
 function customPageHeader(){?>
    <!--photoGrid-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-<link rel="stylesheet" href="css/gallery-grid.css">
-    <!--lightbox-->
-<link rel="stylesheet" href="css/baguetteBox.min.css">
-<script src="js/baguetteBox.min.js" async></script>
-  <?php }
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/gallery-grid.css">
+	<!--lightbox-->
+	<link rel="stylesheet" href="css/baguetteBox.min.css">
+	<script src="js/baguetteBox.min.js" async></script>
+<?php }
+
 
 include_once('header.php');
 ?>
@@ -31,7 +32,7 @@ include_once('header.php');
 		</div>
 	
 	<div class="spacer20"></div>
-	<a href="https://www.youtube.com/watch?v=h8_68OONY-w&t=4s" target="_blank"> <button class="accordion">Run Python in XCode 10 Tutorial</button>
+	<a href="https://www.youtube.com/watch?v=h8_68OONY-w&t=4s" target="_blank" rel="noreferrer nofollow"> <button class="accordion">Run Python in XCode 10 Tutorial</button>
 	</a>
 					
 <!--BOOTSTRAP GALLERY-->	
@@ -126,11 +127,9 @@ include_once('header.php');
 		
 </div> <!--endOfPage-->
 
-<script src="js/logger.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-    baguetteBox.run('.tz-gallery');
-</script>
-</body>
-</html>
+<?php 
+function customFooterScripts(){?>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+	<script>baguetteBox.run('.tz-gallery');</script>
+<?php }
+include_once("footer.php");?>
