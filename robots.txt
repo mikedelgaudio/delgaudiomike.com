@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /error404.php
+Disallow: /error503.php
+Disallow: /js
+Disallow: /css
