@@ -29,7 +29,7 @@ include_once('header.php');
                           <li>Michael DelGaudio</li>
                           <li>Hoboken, NJ</li>
                           <li>Bachelor of Computer Science</li>
-                          <li><a class="contactLink" href="https://www.stevens.edu/" target="_blank" rel="nofollow">Stevens Institute of Technology</a></li>
+                          <li><a class="contactLink" href="https://www.stevens.edu/" target="_blank" rel="nofollow noreferrer">Stevens Institute of Technology</a></li>
                           <li><i>Expected Grad:</i> May 2023</li>
                       </ul>
                   </h5>
@@ -43,8 +43,8 @@ include_once('header.php');
               <button class="accordion">Skills</button>
                   <div class="panel">
                       <ul class="allSkills">
-                          <li class="skills">HTML, CSS, AWS, CloudFlare</li>
-                          <li class="skills">Python, JavaScript, Java</li>
+                          <li class="skills">HTML, CSS, Bootstrap 4, AWS, CloudFlare</li>
+                          <li class="skills">PHP, JavaScript, Python, Java</li>
                           <li class="skills">Git</li>
                           <li class="skills">Adobe Photoshop CC</li>
                           <li class="skills">Adobe Dreamweaver CC, Microsoft Visual Studio, Notepad++, Eclipse</li>
@@ -65,6 +65,8 @@ include_once('header.php');
 
 </div>
 
-<script src="js/aboutMeScript.js"></script>
-</body>
-</html>
+<?php 
+function customFooterScripts(){?>
+	<script src="js/aboutMeScript.js"></script>
+<?php }
+include_once("footer.php");?>

@@ -45,5 +45,4 @@ include_once('header.php');
     </div>
 </div>
 
-</body>
-</html>
+<?php include_once("footer.php");?>

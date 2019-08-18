@@ -2,7 +2,7 @@
 
 $PageTitle="Home | Mike DelGaudio";
 $metaOgTitle= "'Home | Mike DelGaudio'";
-$metaKeywords= ",index";
+$metaKeywords= ",index,home,homepage,home page,index page,root";
 $pageStyle="'css/indexStyle.css'";
 
 function customFooterScripts(){?>
