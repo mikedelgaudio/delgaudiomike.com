@@ -34,6 +34,10 @@ include_once('header.php');
 	<div class="spacer20"></div>
 	<a href="https://www.youtube.com/watch?v=h8_68OONY-w&t=4s" target="_blank" rel="noreferrer nofollow"> <button class="accordion">Run Python in XCode 10 Tutorial</button>
 	</a>
+
+	<div class="spacer20"></div>
+	<a href="https://www.youtube.com/watch?v=zIIYN_PyUAM" target="_blank" rel="noreferrer nofollow"> <button class="accordion">Run C++ in macOS Visual Studio Code Tutorial</button>
+	</a>
 					
 <!--BOOTSTRAP GALLERY-->	
 	<div class="container gallery-container">
