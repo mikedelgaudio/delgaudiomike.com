@@ -16,6 +16,9 @@
   box-sizing: inherit;
 }
 
+.yellow{
+  color: #FFCA19!important;
+}
 
 main{
   display: contents!important;
