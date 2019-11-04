@@ -52,7 +52,7 @@
             <a href="/" class="w3-button w3-block w3-black">HOME</a>
           </div>
           <div class="w3-col s3">
-            <a href="/aboutMe" class="w3-button w3-block w3-black">ABOUT</a>
+            <a href="/about-me" class="w3-button w3-block w3-black">ABOUT</a>
           </div>
           <div class="w3-col s3">
             <a href="/portfolio" class="w3-button w3-block w3-black">WORK</a>

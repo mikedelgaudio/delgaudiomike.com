@@ -38,12 +38,18 @@ include_once('header.php');
 	<div class="spacer20"></div>
 	<a href="https://www.youtube.com/watch?v=zIIYN_PyUAM" target="_blank" rel="noreferrer nofollow"> <button class="accordion">Run C++ in macOS Visual Studio Code Tutorial</button>
 	</a>
+
+	<div class="spacer20"></div>
+	<a href="/internship-summer-2019"> <button class="accordion">Front-End Development Portfolio - Summer Internship 2019 <span class="new">New</span></button>
+	</a>
+	<div class="spacer20"></div>
 					
 <!--BOOTSTRAP GALLERY-->	
+<h6 class="heading">Photoshop/Creative Work</h6>
 	<div class="container gallery-container">
     
     	<div class="tz-gallery">
-
+		
         	<div class="row">
 				<div class="col-sm-6 col-md-4">
                 	<a class="lightbox" href="images/portfolioImages/walter.jpg">
