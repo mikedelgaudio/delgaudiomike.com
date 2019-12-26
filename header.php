@@ -41,7 +41,7 @@
   <body>
 
   <!--[if lt IE 10]>
-	<div style="background-color:black; z-index:9999"><p style="font-size:30px; color: red;">You are using an outdated browser that may not work with this website. Please update to a modern browser.</p></div>
+	<div style="background-color:black; z-index:9999; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);"><p style="font-size:35px; color: red;">You are using an outdated browser that may not work with this website. Please update to a modern browser.</p></div>
 <![endif]-->
 
 

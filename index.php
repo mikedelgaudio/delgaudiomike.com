@@ -1,7 +1,7 @@
 <?php
 
-$PageTitle="Home | Mike DelGaudio";
-$metaOgTitle= "'Home | Mike DelGaudio'";
+$PageTitle="Mike DelGaudio | Computer Science Student";
+$metaOgTitle= "'Mike DelGaudio | Computer Science Student'";
 $metaKeywords= ",index,home,homepage,home page,index page,root";
 $pageStyle="'css/indexStyle.css'";
 
