@@ -1,1 +1,1 @@
-sudo cp -r -v ~/Documents/GitHub/delgaudiomike.com/ /Applications/XAMPP/xamppfiles/htdocs
+sudo cp -r -v ~/Documents/myWebsite/delgaudiomike.com/ ~/.bitnami/stackman/machines/xampp/volumes/root/htdocs

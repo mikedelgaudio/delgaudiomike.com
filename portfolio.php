@@ -53,81 +53,81 @@ include_once('header.php');
 		
         	<div class="row">
 				<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/walter.jpg">
-                    <img src="images/portfolioImages/walter.jpg" alt="walterWhitePcJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/walter.jpg">-->
+                    <img data-src="images/portfolioImages/walter.jpg" alt="walterWhitePcJPG">
+                	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/beatles.jpg">
-                    <img src="images/portfolioImages/beatles.jpg" alt="beatlesJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/beatles.jpg">-->
+                    <img data-src="images/portfolioImages/beatles.jpg" alt="beatlesJPG">
+                	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/earth.jpg">
-                    <img src="images/portfolioImages/earth.jpg" alt="earthJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/earth.jpg">-->
+                    <img data-src="images/portfolioImages/earth.jpg" alt="earthJPG">
+                	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/maple.jpg">
-                    <img src="images/portfolioImages/maple.jpg" alt="mapleJPG">
-                	</a>
+                	<!--<a class="lightbox" href="images/portfolioImages/maple.jpg">-->
+                    <img data-src="images/portfolioImages/maple.jpg" alt="mapleJPG">
+                	<!--</a>-->
             	</div>  
 				<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/mDLogo.jpg">
-                    <img src="images/portfolioImages/mDLogo.jpg" alt="mDLogoJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/mDLogo.jpg">-->
+                    <img data-src="images/portfolioImages/mDLogo.jpg" alt="mDLogoJPG">
+                	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/mikeElectric.jpg">
-                    <img src="images/portfolioImages/mikeElectric.jpg" alt="mikeElectricJPG">
-                	</a>
+                	<!--<a class="lightbox" href="images/portfolioImages/mikeElectric.jpg">-->
+                    <img data-src="images/portfolioImages/mikeElectric.jpg" alt="mikeElectricJPG">
+                	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/mikeMountain.jpg">
-                    <img src="images/portfolioImages/mikeMountain.jpg" alt="mikeMountainJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/mikeMountain.jpg">-->
+                    <img data-src="images/portfolioImages/mikeMountain.jpg" alt="mikeMountainJPG">
+                	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/mikeTree.jpg">
-                    <img src="images/portfolioImages/mikeTree.jpg" alt="mikeTreeJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/mikeTree.jpg">-->
+                    <img data-src="images/portfolioImages/mikeTree.jpg" alt="mikeTreeJPG">
+                	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/mikeEth.jpg">
-                    <img src="images/portfolioImages/mikeEth.jpg" alt="mikeEthJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/mikeEth.jpg">-->
+                    <img data-src="images/portfolioImages/mikeEth.jpg" alt="mikeEthJPG">
+                	<!--</a>-->
            		</div>
             	<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/heartFade.jpg">
-                    <img src="images/portfolioImages/heartFade.jpg" alt="heartFadeJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/heartFade.jpg">-->
+                    <img data-src="images/portfolioImages/heartFade.jpg" alt="heartFadeJPG">
+                	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/christmas.jpg">
-                    <img src="images/portfolioImages/christmas.jpg" alt="christmasJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/christmas.jpg">-->
+                    <img data-src="images/portfolioImages/christmas.jpg" alt="christmasJPG">
+                	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/gloverPaint.jpg">
-                    <img src="images/portfolioImages/gloverPaint.jpg" alt="gloverPaintJPG">
-                </a>
-            	</div>
-			<!--BOTTOMROW-->
-				<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/daftPunk.jpg">
-                    <img src="images/portfolioImages/daftPunk.jpg" alt="daftPunkJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/gloverPaint.jpg">-->
+                    <img data-src="images/portfolioImages/gloverPaint.jpg" alt="gloverPaintJPG">
+                	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/mikeBanner.jpg">
-                    <img src="images/portfolioImages/mikeBanner.jpg" alt="mikeBannerJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/daftPunk.jpg">-->
+                    <img data-src="images/portfolioImages/daftPunk.jpg" alt="daftPunkJPG">
+                	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
-                	<a class="lightbox" href="images/portfolioImages/beowulf.jpg">
-                    <img src="images/portfolioImages/beowulf.jpg" alt="beowulfJPG">
-                </a>
+                	<!--<a class="lightbox" href="images/portfolioImages/mikeBanner.jpg">-->
+                    <img data-src="images/portfolioImages/mikeBanner.jpg" alt="mikeBannerJPG">
+            		<!--</a>-->
             	</div>
+				<div class="col-sm-6 col-md-4">
+                	<!--<a class="lightbox" href="images/portfolioImages/beowulf.jpg">-->
+                    <img data-src="images/portfolioImages/beowulf.jpg" alt="beowulfJPG">
+                	<!--</a>-->
+            	</div>
+				
         	</div><!--rowEnd-->
 
     	</div>
@@ -138,11 +138,20 @@ include_once('header.php');
 		
 </div> <!--endOfPage-->
 
+<div id="monitor">
+  <div id="isIntersecting">
+    <span class="placeholder">0</span>
+    images loaded
+    </div>
+</div>
+
+
 <?php 
 function customFooterScripts(){?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 	<script>baguetteBox.run('.tz-gallery');</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/backToTop.js"></script>
+	<script type="text/javascript" src="js/lazyLoader.js"></script>
 <?php }
 include_once("footer.php");?>

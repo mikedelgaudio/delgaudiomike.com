@@ -158,3 +158,16 @@ button.highlighter:hover{
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
+
+/*monitor lazy loading box*/
+#monitor {
+	position:fixed;
+	top: 5em;
+	right: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background: red;
+	font-family: monospace;
+	text-align: center;
+	line-height: 2.8em;
+  }
