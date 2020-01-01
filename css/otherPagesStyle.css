@@ -171,3 +171,11 @@ button.highlighter:hover{
 	text-align: center;
 	line-height: 2.8em;
   }
+
+/*for all lazy loaded images*/
+[data-src]{
+	min-height: 195px;
+	min-width: 100%;
+	object-fit: contain;
+	overflow:hidden;
+}

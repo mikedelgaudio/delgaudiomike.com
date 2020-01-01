@@ -1,6 +1,6 @@
 const images = document.querySelectorAll('[data-src]');
 const config = {
-  rootMargin: '0px 0px 50px 0px',
+  rootMargin: '-50px 0px -55% 0px',
   threshold: 0
 };
 let loaded = 0;
@@ -16,16 +16,16 @@ let observer = new IntersectionObserver(function (entries, self) {
   });
 }, config);
 
-images.forEach(image => {
-  observer.observe(image);
-});
-
 function preloadImage(img) {
   const src = img.getAttribute('data-src');
   if (!src) { return; }
   img.src = src;
   _updateMonitoring();
 }
+
+images.forEach(image => {
+    observer.observe(image);
+  });
 
 // Just for the monitoring purpose. Isn't needed in real projects
 function _updateMonitoring() {
