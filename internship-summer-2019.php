@@ -12,7 +12,6 @@ function customPageHeader(){?>
 	<link rel="stylesheet" href="css/gallery-grid.css">
 	<!--lightbox-->
 	<link rel="stylesheet" href="css/baguetteBox.min.css">
-	<script src="js/baguetteBox.min.js" async></script>
 <?php }
 
 
@@ -149,7 +148,7 @@ include_once('header.php');
 
 <?php 
 function customFooterScripts(){?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="js/baguetteBox.js" async></script>
     <script>baguetteBox.run('.tz-gallery');</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/backToTop.js"></script>

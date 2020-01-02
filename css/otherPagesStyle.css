@@ -160,7 +160,7 @@ button.highlighter:hover{
 }
 
 /*for all lazy loaded images  195*/
-img, [data-src]{
+[data-src]{
 	min-height: 195px;
 	object-fit: contain;
 	overflow:hidden;

@@ -3,7 +3,7 @@
   <head>
 
 <?php //uncomment below for devMode 
-      $devMode = true; ?>
+      //$devMode = true; ?>
 
 <?php if(!isset($devMode)){ ?>
  <!-- Global site tag (gtag.js) - Google Analytics -->
