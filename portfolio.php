@@ -13,6 +13,8 @@ function customPageHeader(){?>
 	<!--lightbox-->
 	<link rel="stylesheet" href="css/baguetteBox.min.css">
 	<script src="js/baguetteBox.min.js" async></script>
+	<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+	<script type="text/javascript" src="js/yall.min.js" defer></script>
 <?php }
 
 
@@ -54,77 +56,77 @@ include_once('header.php');
         	<div class="row">
 				<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/walter.jpg">-->
-                    <img data-src="images/portfolioImages/walter.jpg" alt="walterWhitePcJPG">
+                    <img src="images/portfolioImages/walter.jpg" alt="walterWhitePcJPG">
                 	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/beatles.jpg">-->
-                    <img data-src="images/portfolioImages/beatles.jpg" alt="beatlesJPG">
+                    <img src="images/portfolioImages/beatles.jpg" alt="beatlesJPG">
                 	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/earth.jpg">-->
-                    <img data-src="images/portfolioImages/earth.jpg" alt="earthJPG">
+                    <img src="images/portfolioImages/earth.jpg" alt="earthJPG">
                 	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/maple.jpg">-->
-                    <img data-src="images/portfolioImages/maple.jpg" alt="mapleJPG">
+                    <img class="lazy" data-src="images/portfolioImages/maple.jpg" alt="mapleJPG">
                 	<!--</a>-->
             	</div>  
 				<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/mDLogo.jpg">-->
-                    <img data-src="images/portfolioImages/mDLogo.jpg" alt="mDLogoJPG">
+                    <img class="lazy" data-src="images/portfolioImages/mDLogo.jpg" alt="mDLogoJPG">
                 	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/mikeElectric.jpg">-->
-                    <img data-src="images/portfolioImages/mikeElectric.jpg" alt="mikeElectricJPG">
+                    <img class="lazy" data-src="images/portfolioImages/mikeElectric.jpg" alt="mikeElectricJPG">
                 	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/mikeMountain.jpg">-->
-                    <img data-src="images/portfolioImages/mikeMountain.jpg" alt="mikeMountainJPG">
+                    <img class="lazy" data-src="images/portfolioImages/mikeMountain.jpg" alt="mikeMountainJPG">
                 	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/mikeTree.jpg">-->
-                    <img data-src="images/portfolioImages/mikeTree.jpg" alt="mikeTreeJPG">
+                    <img class="lazy" data-src="images/portfolioImages/mikeTree.jpg" alt="mikeTreeJPG">
                 	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/mikeEth.jpg">-->
-                    <img data-src="images/portfolioImages/mikeEth.jpg" alt="mikeEthJPG">
+                    <img class="lazy" data-src="images/portfolioImages/mikeEth.jpg" alt="mikeEthJPG">
                 	<!--</a>-->
            		</div>
             	<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/heartFade.jpg">-->
-                    <img data-src="images/portfolioImages/heartFade.jpg" alt="heartFadeJPG">
+                    <img class="lazy" data-src="images/portfolioImages/heartFade.jpg" alt="heartFadeJPG">
                 	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/christmas.jpg">-->
-                    <img data-src="images/portfolioImages/christmas.jpg" alt="christmasJPG">
+                    <img class="lazy" data-src="images/portfolioImages/christmas.jpg" alt="christmasJPG">
                 	<!--</a>-->
             	</div>
             	<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/gloverPaint.jpg">-->
-                    <img data-src="images/portfolioImages/gloverPaint.jpg" alt="gloverPaintJPG">
+                    <img class="lazy" data-src="images/portfolioImages/gloverPaint.jpg" alt="gloverPaintJPG">
                 	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/daftPunk.jpg">-->
-                    <img data-src="images/portfolioImages/daftPunk.jpg" alt="daftPunkJPG">
+                    <img class="lazy" data-src="images/portfolioImages/daftPunk.jpg" alt="daftPunkJPG">
                 	<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/mikeBanner.jpg">-->
-                    <img data-src="images/portfolioImages/mikeBanner.jpg" alt="mikeBannerJPG">
+                    <img class="lazy" data-src="images/portfolioImages/mikeBanner.jpg" alt="mikeBannerJPG">
             		<!--</a>-->
             	</div>
 				<div class="col-sm-6 col-md-4">
                 	<!--<a class="lightbox" href="images/portfolioImages/beowulf.jpg">-->
-                    <img data-src="images/portfolioImages/beowulf.jpg" alt="beowulfJPG">
+                    <img class="lazy" data-src="images/portfolioImages/beowulf.jpg" alt="beowulfJPG">
                 	<!--</a>-->
             	</div>
 				
@@ -137,13 +139,13 @@ include_once('header.php');
 </div>
 		
 </div> <!--endOfPage-->
-
+<!--
 <div id="monitor">
   <div id="isIntersecting">
     <span class="placeholder">0</span>
     images loaded
     </div>
-</div>
+</div>-->
 
 
 <?php 
@@ -152,6 +154,5 @@ function customFooterScripts(){?>
 	<script>baguetteBox.run('.tz-gallery');</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/backToTop.js"></script>
-	<script type="text/javascript" src="js/lazyLoader.js"></script>
 <?php }
 include_once("footer.php");?>

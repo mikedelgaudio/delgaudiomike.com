@@ -159,23 +159,9 @@ button.highlighter:hover{
     -ms-filter:"alpha(opacity=100)";
 }
 
-/*monitor lazy loading box*/
-#monitor {
-	position:fixed;
-	top: 5em;
-	right: 1em;
-	padding-left: 1em;
-	padding-right: 1em;
-	background: red;
-	font-family: monospace;
-	text-align: center;
-	line-height: 2.8em;
-  }
-
-/*for all lazy loaded images*/
-[data-src]{
+/*for all lazy loaded images  195*/
+img, [data-src]{
 	min-height: 195px;
-	min-width: 100%;
 	object-fit: contain;
 	overflow:hidden;
 }
