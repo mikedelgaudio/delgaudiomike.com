@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
 
-<?php //uncomment below for devMode 
-      //$devMode = true; ?>
+<?php //toggle to true to turn off google
+      $devMode = true; ?>
 
-<?php if(!isset($devMode)){ ?>
+<?php if(isset($devMode) && $devMode == false){ ?>
  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119776312-1"></script>
       <script>

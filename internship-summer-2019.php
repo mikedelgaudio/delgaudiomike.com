@@ -148,8 +148,7 @@ include_once('header.php');
 
 <?php 
 function customFooterScripts(){?>
-    <script src="js/baguetteBox.js" async></script>
-    <script>baguetteBox.run('.tz-gallery');</script>
+    <script src="js/baguetteBox.min.js" async></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/backToTop.js"></script>
 <?php }

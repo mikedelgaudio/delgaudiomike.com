@@ -4,6 +4,7 @@ $metaTitle= "'Portfolio'";
 $metaOgTitle= "'Portfolio | Mike DelGaudio'";
 $metaDescr= "'personal portfolio of my previous work'";
 $metaOgDescr= "'personal portfolio of my previous work'";
+$lightBoxBool = true;
 
 function customPageHeader(){?>
    <!--photoGrid-->
@@ -12,8 +13,8 @@ function customPageHeader(){?>
 	<link rel="stylesheet" href="css/gallery-grid.css">
 	<!--lightbox-->
 	<link rel="stylesheet" href="css/baguetteBox.min.css">
-<!-- 	<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-	<script type="text/javascript" src="js/yall.min.js" defer></script> -->
+	<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+	<script type="text/javascript" src="js/yall.min.js" defer></script>
 <?php }
 
 
@@ -71,6 +72,8 @@ include_once('header.php');
 					$imgAltText = "Earth JPG";
 					include("gallery-template.php");
 				?>
+
+				<?php $lazyLoadBool = true; //everything after this has class lazy on the imgs?> 
 
 				<?php 
 					$imgFilePath = "portfolioImages/maple.jpg";
@@ -156,8 +159,7 @@ include_once('header.php');
 
 <?php 
 function customFooterScripts(){?>
-	<script src="js/baguetteBox.js" async></script>
-	<script>baguetteBox.run('.tz-gallery');</script>
+	<script src="js/baguetteBox.min.js" async></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/backToTop.js"></script>
 <?php }
