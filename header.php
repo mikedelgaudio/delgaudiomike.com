@@ -3,7 +3,7 @@
   <head>
 
 <?php //toggle to true to turn off google
-      $devMode = true; ?>
+      $devMode = false; ?>
 
 <?php if(isset($devMode) && $devMode == false){ ?>
  <!-- Global site tag (gtag.js) - Google Analytics -->
