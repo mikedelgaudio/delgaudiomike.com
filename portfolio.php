@@ -9,7 +9,6 @@ $lightBoxBool = true;
 function customPageHeader(){?>
    <!--photoGrid-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 	<link rel="stylesheet" href="css/gallery-grid.css">
 	<!--lightbox-->
 	<link rel="stylesheet" href="css/baguetteBox.min.css">
