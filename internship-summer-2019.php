@@ -40,11 +40,11 @@ include_once('header.php');
         <div class="w3-container w3sContainerBackground">
             <hr>
             <ul class="allSkills">
-                <li class="skills yellow">Passed penetration testing by the Judiciary Systems Security Test Team in Washington D.C.</li>
-                <li class="skills yellow">Implemented Google Translate API for non-English users</li>
-                <li class="skills yellow">Ensured proper operation of webpages on all devices and modern browsers, including Internet Explorer 11</li>
-                <li class="skills yellow">Utilized PHP and a mySQL database to generate contact information for each probation officer/address</li>
-                <li class="skills yellow">Implemented popular user interface features such as: Back to Top, Click to Email, Rotating Image Carousels, and CSS hover animations</li>
+                <li class="skills yellow text-shadow-black">Passed penetration testing by the Judiciary Systems Security Test Team in Washington D.C.</li>
+                <li class="skills yellow text-shadow-black">Implemented Google Translate API for non-English users</li>
+                <li class="skills yellow text-shadow-black">Ensured proper operation of webpages on all devices and modern browsers, including Internet Explorer 11</li>
+                <li class="skills yellow text-shadow-black">Utilized PHP and a mySQL database to generate contact information for each probation officer/address</li>
+                <li class="skills yellow text-shadow-black">Implemented popular user interface features such as: Back to Top, Click to Email, Rotating Image Carousels, and CSS hover animations</li>
             </ul>
         </div>
 
