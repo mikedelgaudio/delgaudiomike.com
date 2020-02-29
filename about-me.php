@@ -37,20 +37,21 @@ include_once('header.php');
               
               <button class="accordion">Who Am I</button>
                   <div class="panel">
-                        <h6>Hey there, I'm Mike! I created this website to share my hobby with others during my years as a computer science student. When I'm not studying in school, I spend my time in <i>Adobe Photoshop CC</i> and work with <i>Apple’s Final Cut Pro</i> to make my creative ideas come to life. Additionally, I taught myself how to program professional lighting equipment with <i>Chauvet’s ShowXpress</i>. I became fluent with Digital Multiplex (DMX512) protocol and how light fixtures operate. This website is one of my favorite personal projects that got me interested into web development.</h6>
+                        <h6>Welcome! My name is Mike DelGaudio. I’m a Co-Op Computer Science Student at<a class="contactLine" href="https://www.stevens.edu/" target="_blank" rel="nofollow noreferrer"> Stevens Institute of Technology </a>in Hoboken, NJ. Primarily, I focus on front-end development and dev-ops. Occasionally, I do like to utilize Java and come up with some neat applications in my free time.</h6>
                   </div>
               <div class="breakInAbout">&nbsp;</div>
-              <button class="accordion">Skills</button>
+              <button class="accordion">Skills/Technologies Used</button>
                   <div class="panel">
                       <ul class="allSkills">
-                          <li class="skills">HTML, CSS, Bootstrap 4, AWS, CloudFlare</li>
-                          <li class="skills">PHP, JavaScript, Python, Java</li>
-                          <li class="skills">Git</li>
+                          <li class="skills">HTML, CSS, Bootstrap, Angular</li>
+                          <li class="skills">PHP, JavaScript, TypeScript, Java, Python</li>
+                          <li class="skills">Selenium, Cucumber.io</li>
+                          <li class="skills">AWS EC2/Lightsail, CloudFlare, GCP Cloud SQL</li>
+                          <li class="skills">Git/GitHub operations</li>
                           <li class="skills">Adobe Photoshop CC</li>
-                          <li class="skills">Adobe Dreamweaver CC, Microsoft Visual Studio, Notepad++, Eclipse</li>
                           <li class="skills">Chauvet ShowXpress</li>
                           <li class="skills">MS Office: Word, Excel, Powerpoint</li>
-                          <li class="skills">Microsoft Windows &amp; Server 2016</li>
+                          <li class="skills">Microsoft Windows &amp; Server 2012/2016</li>
                           <li class="skills">Apple iOS &amp; macOS</li>
                           <li class="skills">Apple Final Cut Pro</li>
                           <li class="skills">Synology DiskStation Manager (DSM)</li>
