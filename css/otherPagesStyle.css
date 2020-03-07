@@ -67,7 +67,7 @@ ul.breakdown {
 	list-style: none;
 }
 .accordion {
-	background-color: #242A39;
+	background-color: #13161e;
 	color: #F9F9F9;
 	cursor: pointer;
 	padding: 13.4px;
@@ -106,7 +106,7 @@ ul.breakdown {
 	padding: 0.5rem;
 }
 .w3sContainerTitle {
-	background-color: #242A39;
+	background-color: #13161e;
 }
 .centerIcons{
 	display: flex;

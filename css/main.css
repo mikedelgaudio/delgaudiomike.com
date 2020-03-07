@@ -120,6 +120,10 @@ a{
   background-color: transparent;
 }
 
+a:hover{
+  color: #E5B000;
+}
+
 button{
   font: inherit;
   margin: 0;

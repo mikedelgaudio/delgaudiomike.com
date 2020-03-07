@@ -6,6 +6,10 @@ $metaDescr= "'have any questions for me?'";
 $metaOgDescr= "'have any questions for me?'";
 $metaKeywords= ",resume";
 
+function customPageHeader(){?>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<?php }
+
 include_once('header.php');
 ?>
 
@@ -25,7 +29,11 @@ include_once('header.php');
         <div id="contactMeModal" class="w3-modal">
             <div class="w3-modal-content">
               <div class="w3-container w3sContainerBackground">
-                <h5>If you would like to ask any questions or request a resume, please <a class="contactLink" href="mailto:delgaudiomike@gmail.com" rel="noreferrer nofollow">contact me</a>. Additionally, leave me some <a class="contactLink" href="mailto:delgaudiomike@gmail.com" rel="noreferrer nofollow">feedback</a>!</h5>
+                <h5>If you would like to ask any questions or need referrals, please <a class="contactLink" href="mailto:delgaudiomike@gmail.com" rel="noreferrer nofollow">contact me</a>. Additionally, leave me some <a class="contactLink" href="mailto:delgaudiomike@gmail.com" rel="noreferrer nofollow">feedback</a>!</h5>
+                <div class = "text-center">
+                  <a type="button" href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer" class="btn btn-lg btn-outline-warning">Resume</a>
+                </div>
+                <div class="spacer20"></div>
               </div>
                 <div class="w3-container w3sContainerTitle">
                       <div class="spacer20"></div>
@@ -38,7 +46,6 @@ include_once('header.php');
                   
                           <p class="contactIcons socialIcons"><a href="https://github.com/mikedelgaudio" rel="noreferrer nofollow" target="_blank"><button class="w3-button w3-black w3-round-large highlighter" title="Github"><img src="images/gitHub.png" alt="GitHub"></button></a></p>
                         </div>
-                      <div class="spacer30"></div>
                 </div>
             </div>
           </div>

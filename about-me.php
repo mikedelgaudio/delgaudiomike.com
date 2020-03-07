@@ -6,6 +6,10 @@ $metaKeywords= ",aboutme";
 $metaDescr= "'a little bit about me'";
 $metaOgDescr= "'a little bit about me'";
 
+function customPageHeader(){?>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<?php }
+
 include_once('header.php');
 ?>
 
@@ -31,6 +35,7 @@ include_once('header.php');
                           <li>Bachelor of Computer Science</li>
                           <li><a class="contactLink" href="https://www.stevens.edu/" target="_blank" rel="nofollow noreferrer">Stevens Institute of Technology</a></li>
                           <li><i>Expected Grad:</i> May 2023</li>
+                          <a type="button" href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer" class="btn btn-outline-warning">Resume</a>
                       </ul>
                   </h5>
               </div>
