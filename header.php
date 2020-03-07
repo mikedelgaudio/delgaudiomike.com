@@ -30,7 +30,7 @@
 
     <meta name="title" content= <?= isset($metaTitle) ? $metaTitle : "'Mike DelGaudio | Computer Science Student'"?> >
     <meta property="og:title" content= <?= isset($metaOgTitle) ? $metaOgTitle : "'Mike DelGaudio | Computer Science Student'"?> >
-    <meta property="og:description" content= <?= isset($metaOgDescr) ? $metaOgDescr : "'Mike DelGaudio, a computer science student from Stevens Institute of Technology and passionate about full stack development.'"?> >
+    <meta property="og:description" content= <?= isset($metaOgDescr) ? $metaOgDescr : "' Mike DelGaudio, a computer science student from Stevens Institute of Technology and passionate about full stack development.'"?> >
     <meta name="description" content= <?= isset($metaDescr) ? $metaDescr : "'Mike DelGaudio, a computer science student from Stevens Institute of Technology and passionate about full stack development.'"?> >
     <meta name="keywords" content= "michaeldelgaudio,delgaudio,mikedelgaudio,delgaudiomike,portfolio,computerscience,personalportfolio,student<?= isset($metaKeywords) ? $metaKeywords : ""?>" >
    
