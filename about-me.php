@@ -30,12 +30,14 @@ include_once('header.php');
               <div class="w3-container w3sContainerBackground">
                     <h5>
                       <ul class="breakdown">
-                          <li>Michael DelGaudio</li>
-                          <li>Hoboken, NJ</li>
-                          <li>Bachelor of Computer Science</li>
-                          <li><a class="contactLink" href="https://www.stevens.edu/" target="_blank" rel="nofollow noreferrer">Stevens Institute of Technology</a></li>
-                          <li><i>Expected Grad:</i> May 2023</li>
-                          <a type="button" href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer" class="btn btn-outline-warning">Resume</a>
+                        <li>Michael DelGaudio</li>
+                        <li>Hoboken, NJ</li>
+                        <li>Bachelor of Computer Science</li>
+                        <li><a class="contactLink" href="https://www.stevens.edu/" target="_blank" rel="nofollow noreferrer">Stevens Institute of Technology</a></li>
+                        <li><i>Expected Grad:</i> May 2023</li>
+                        <button type="button" class="btn btn-outline-warning">
+                            <a href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer">Resume</a>
+			            </button>
                       </ul>
                   </h5>
               </div>

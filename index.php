@@ -23,7 +23,9 @@ include_once('header.php');
 		</div>
 		<div class="text-center">
 			<p id="indexText">computer science student &amp;&amp; personal portfolio</p>
-			<a type="button" href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer" class="btn btn-outline-warning">Resume</a>
+			<button type="button" class="btn btn-outline-warning">
+				<a href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer">Resume</a>
+			</button>
 		</div>
 	</div>	
 </div>

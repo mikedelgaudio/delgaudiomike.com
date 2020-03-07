@@ -31,7 +31,9 @@ include_once('header.php');
               <div class="w3-container w3sContainerBackground">
                 <h5>If you would like to ask any questions or need referrals, please <a class="contactLink" href="mailto:delgaudiomike@gmail.com" rel="noreferrer nofollow">contact me</a>. Additionally, leave me some <a class="contactLink" href="mailto:delgaudiomike@gmail.com" rel="noreferrer nofollow">feedback</a>!</h5>
                 <div class = "text-center">
-                  <a type="button" href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer" class="btn btn-lg btn-outline-warning">Resume</a>
+                <button type="button" class="btn btn-lg btn-outline-warning">
+				          <a href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer">Resume</a>
+			          </button>
                 </div>
                 <div class="spacer20"></div>
               </div>
