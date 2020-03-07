@@ -23,15 +23,15 @@
     <meta property="og:url" content="https://delgaudiomike.com/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://delgaudiomike.com/images/ogImage.jpg">
-    <meta name="author" content="Michael DelGaudio">
+    <meta name="author" content="Mike DelGaudio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
     <title><?= isset($PageTitle) ? $PageTitle : "Mike DelGaudio"?></title>
 
-    <meta name="title" content= <?= isset($metaTitle) ? $metaTitle : "'Mike DelGaudio'"?> >
-    <meta property="og:title" content= <?= isset($metaOgTitle) ? $metaOgTitle : "'Mike DelGaudio'"?> >
-    <meta property="og:description" content= <?= isset($metaOgDescr) ? $metaOgDescr : "'computer science student | personal portfolio'"?> >
-    <meta name="description" content= <?= isset($metaDescr) ? $metaDescr : "'computer science student | personal portfolio'"?> >
+    <meta name="title" content= <?= isset($metaTitle) ? $metaTitle : "'Mike DelGaudio, Computer Science Student'"?> >
+    <meta property="og:title" content= <?= isset($metaOgTitle) ? $metaOgTitle : "'Mike DelGaudio, Computer Science Student'"?> >
+    <meta property="og:description" content= <?= isset($metaOgDescr) ? $metaOgDescr : "'I'm Mike DelGaudio, a computer science student from Stevens Institute of Technology and passionate about full stack development.'"?> >
+    <meta name="description" content= <?= isset($metaDescr) ? $metaDescr : "'I'm Mike DelGaudio, a computer science student from Stevens Institute of Technology and passionate about full stack development.'"?> >
     <meta name="keywords" content= "michaeldelgaudio,delgaudio,mikedelgaudio,delgaudiomike,portfolio,computerscience,personalportfolio,student<?= isset($metaKeywords) ? $metaKeywords : ""?>" >
    
     <!--favicon-->
