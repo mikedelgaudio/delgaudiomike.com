@@ -288,7 +288,11 @@ p a:hover {
 .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}
 
 
-
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ie-protect{
+    display: none;
+  }
+}
 
 
 
