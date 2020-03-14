@@ -53,6 +53,12 @@
 
  
       <div class="w3-top">
+
+        <div class="alert if-ie alert-danger" role="alert">
+          Your browser is unsupported, please upgrade to a modern browser.<br>
+          Some website functionality such as the <b>Resume</b> will not work correctly.
+        </div>
+
         <div class="w3-row w3-padding w3-black">
           <div class="w3-col s3">
             <a href="/" class="w3-button w3-block w3-black">HOME</a>
@@ -68,5 +74,5 @@
           </div>
         </div>
       </div>
- 
+
   <main>
