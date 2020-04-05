@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <script data-ad-client="ca-pub-5110102783992901" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <?php //toggle to true to turn off google
       $devMode = false; ?>
