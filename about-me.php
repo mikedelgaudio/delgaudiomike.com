@@ -36,7 +36,7 @@ include_once('header.php');
                         <li><a class="contactLink" href="https://www.stevens.edu/" target="_blank" rel="nofollow noreferrer">Stevens Institute of Technology</a></li>
                         <li><i>Expected Grad:</i> May 2023</li>
                         <button type="button" class="btn btn-outline-warning">
-                            <a href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume_fall_2020.pdf" target="_blank" rel="nofollow noreferrer">Resume</a>
+                            <a href="https://github.com/mikedelgaudio/resume/blob/master/michael_delgaudio_resume.pdf" target="_blank" rel="nofollow noreferrer">Resume</a>
 			            </button>
                       </ul>
                   </h5>
