@@ -1,5 +1,10 @@
-on: push
-name: Publish Website over FTPS
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+      - dist-test
+
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
