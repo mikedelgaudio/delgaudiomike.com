@@ -6,18 +6,18 @@ on:
       - dist-test
 
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.1.0
-      with:
-        fetch-depth: 2
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2.3.2
 
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@beta-v4
       with:
-        ftp-server: ftps://ftp.delgaudiomike.com:21/
-        ftp-username: deploy@delgaudiomike.com
-        ftp-password: ${{ secrets.FTPS_PASSWORD }}
-        git-ftp-args: --insecure
+        server: ftp.delgaudiomike.com
+        username: deploy@delgaudiomike.com
+        password: ${{ secrets.FTPS_PASSWORD }}
+        protocol: ftps
+        port: 21
