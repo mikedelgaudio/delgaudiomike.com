@@ -20,3 +20,4 @@ jobs:
         password: ${{ secrets.FTPS_PASSWORD }}
         protocol: ftps
         port: 21
+        security: loose
