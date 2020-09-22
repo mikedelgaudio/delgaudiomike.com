@@ -1,4 +1,4 @@
-name: Angular Compile
+name: Deploy
 on:
   pull_request:
     branches:
