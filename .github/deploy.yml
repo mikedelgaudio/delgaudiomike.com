@@ -1,5 +1,14 @@
-on: push
-name: Publish Website over FTPS
+name: Angular Compile
+on:
+  pull_request:
+    branches:
+      - master
+      - dist-test
+  push:
+    branches:
+      - master
+      - dist-test
+
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
